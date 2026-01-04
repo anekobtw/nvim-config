@@ -5,12 +5,12 @@ return {
 		priority = 1000,
 	},
 	{
+		"nvim-tree/nvim-web-devicons",
+	},
+	{
 		"nvim-lualine/lualine.nvim",
 		lazy = false,
 		requires = { "nvim-tree/nvim-web-devicons", opt = true },
-	},
-	{
-		"lewis6991/gitsigns.nvim",
 	},
 	{
 		"folke/todo-comments.nvim",
@@ -23,5 +23,15 @@ return {
 	},
 	{
 		"nvim-tree/nvim-tree.lua",
-	}
+	},
+	{
+		"folke/which-key.nvim",
+	},
+	{
+		"luxvim/nvim-luxterm",
+	},
+	{
+		"gisketch/triforce.nvim",
+		dependencies = { "nvzone/volt" },
+	},
 }
